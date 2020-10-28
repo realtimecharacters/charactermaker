@@ -80,10 +80,18 @@ class Appendage():
     # so the user has control over the rig
     # method also returns a mapping of vertex groups to bones with weighted vertices
     # this method call is also the time to create any shape keys
+    # bones should also include rotation constraints, this is very important for auto-animations
     def rig(self):
         print('rigging appendage')
 
         return []
+
+    # figure out how this one should work
+    # should this be called along with rigging or in a separate step?
+    # perhaps it just provides hints to animate plugins?
+    # ex: arms vs legs vs wings vs ears/eyes/mouth, etc.
+    def animate(self):
+        return {}
 
 
 register(Appendage)
