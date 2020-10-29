@@ -7,3 +7,5 @@
 # need to figure out how to specify animations that scale to various body types
 # bipedal, quadropedial, multi-pedal (insects) all need to work
 # how to handle appendages that are arm-legs (can function as either)
+
+# need to figure out a way to share and sell animations like mixamo does
